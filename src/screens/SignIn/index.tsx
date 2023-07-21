@@ -4,7 +4,7 @@ import { styles } from './styles';
 export function SignIn() {
   return (
     <View style={styles.container}>
-      <Text>Estamos criando o ignite fleet</Text>
+      <Text>Aqui será o app Ignite Fleet</Text>
     </View>
   );
 }
