@@ -1,10 +1,13 @@
 import { SignIn } from './src/screens/SignIn';
-import { ThemeProvider } from 'styled-components/native'
-import { useFonts, Roboto_400Regular, Roboto_700Bold } from '@expo-google-fonts/roboto'
+import { ThemeProvider } from 'styled-components/native';
+import { useFonts, Roboto_400Regular, Roboto_700Bold } from '@expo-google-fonts/roboto';
 
-import theme from './src/theme';
 import { Loading } from './src/components/Loading';
 import { StatusBar } from 'react-native';
+import { ANDROID_CLIENT_ID } from '@env';
+
+import theme from './src/theme';
+
 
 export default function App() {
 
